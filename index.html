@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Coco’s Island Café & Grocery</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+    <!-- Header :D -->
+    <header class = "header">
+        <a href="#" class="logo"> <i class="fas fa-leaf	"></i> Coco’s Island Café & Grocery </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+            <a href="#review">review</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+        
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+    
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+  <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="images/cart-img-1.png" alt="">
+            <div class="content">
+                <h3>pineapple</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="images/cart-img-2.png" alt="">
+            <div class="content">
+                <h3>spam</h3>
+                <span class="price">$3.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="images/cart-img-3.png" alt="">
+            <div class="content">
+                <h3>Hawaiian Butter Mochi Mix</h3>
+                <span class="price">$8.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> total : $19.69/- </div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+    </header>
+
+
+<!-- Home Section  -->
+<section class="home" id="home">
+    <div class="content">
+        <h3>fresh and <span>authentic</span> products for your Polynesian Cravings
+        </h3>
+        <p>Try some of our in-house poi or coconut chicken while you shop for some of your favorite, fresh ingredients! Or have it delivered</p>
+        <a href="#" class="btn">shop now</a>
+    </div>
+
+</section>
+
+<!-- Features Section -->
+<section class="features" id="features">
+    <h1 class="heading"> our <span>features</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/feature-img-1.png" alt="">
+            <h3>freshly imported goods</h3>
+            <p>Miss being home at the islands? Don't worry! These ingredients are from the Polynesian islands. </p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/feature-img-2.png" alt="">
+            <h3>free delivery</h3>
+            <p>Where you need some groceries or malasadas to start off your morning, it's free! We're also open for online orders.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+            <img src="images/feature-img-3.png" alt="">
+            <h3>Homemade Meals</h3>
+            <p>Our Cafe meals are created from fellow island natives. Feel free to ask which island they used to live at!</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </div>
+</section>
+
+<!-- Products Section -->
+
+<section class="products" id="products">
+    <h1 class="heading"> our <span>Café Menu</span> </h1>
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="images/product-6.png" alt="">
+                <h3>Malasada</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/product-2.png" alt="">
+                <h3>Lau Lau</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/product-3.png" alt="">
+                <h3>Poi</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/product-4.png" alt="">
+                <h3>Coconut Chicken</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="images/product-5.png" alt="">
+                <h3>Lomi-Lomi Salmon</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/product-1.png" alt="">
+                <h3>Saimin</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/product-7.png" alt="">
+                <h3>Haupia (Coconut Pudding) </h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/product-8.png" alt="">
+                <h3>Spam Musubi</h3>
+                <div class="price"> $4.99/- - 10.99/- </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Categories Section -->
+<section class="categories" id="categories">
+    <h1 class="heading"> product <span>categories</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/cat-1.png" alt="">
+            <h3>Vegetables</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cat-2.png" alt="">
+            <h3>fresh fruits</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cat-3.png" alt="">
+            <h3>dairy products</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+            <img src="images/cat-4.png" alt="">
+            <h3>fresh meat</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </div>
+</section>
+
+<!-- Review section -->
+<section class="review" id="review">
+    <h1 class="heading"> customer's <span>review</span> </h1>
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="images/pineapple.webp" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                <h3>Lana Kohia</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/pineapple.webp" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                <h3>Ulani Rewa</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/pineapple.webp" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                <h3>Arana Rata</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/pineapple.webp" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                <h3>Keoni Turi</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Blog Section -->
+<section class="blogs" id="blogs">
+    <h1 class="heading"> our <span>blogs</span> </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/blog-1.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 21st June, 2021 </a>
+                </div>
+                <h3>Fresh fruit, frozen products, and fish Sale</h3>
+                <p> When: July 1st - 8th 2020 (While Supplies last) <br>ONLY PHYSICAL ORDERS, NO ONLINE ORDERS WILL BE DISCOUNTED</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/blog-2.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 15th August, 2020 </a>
+                </div>
+                <h3>Polynesian Desserts Pop-up Event</h3>
+                <p>When: Thursday and Friday from 11:00 AM - 3:00 PM <br>
+                    Come to our physical location to try some desserts samples. From traditional to newer spin-offs, we have all the favorites from the islands! </p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/blog-3.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by user </a>
+                    <a href="#"> <i class="fas fa-calendar"></i> 1st may, 2020 </a>
+                </div>
+                <h3>Coco's Island Grand Opening! </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, expedita.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer section -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3> Coco's Island <i class="fas fa-leaf"></i> </h3>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +555-555-6666 </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> stephaniequick1997@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Chicago, IL</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="images/payment.png" class="payment-img" alt="">
+        </div>
+    </div>
+
+    <div class="credit"> created by <span>Stephanie Quick </span> | 2020 all rights reserved </div>
+</section>
+    <!-- Swiper.js for modern touch slider -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    </body>
+</html>
